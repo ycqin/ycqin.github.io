@@ -1,0 +1,25 @@
+.nav {
+  background-color: lightgray;
+}
+
+.nav .container li{
+  font-size: 20px;
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url('pic.png');
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+}
+
+.jumbotron p {
+  font-family: Microsoft Yahei;
+  font-size: 50px;
+  color: lightgray;
+}
