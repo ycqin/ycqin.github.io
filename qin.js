@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$('p').click(function() {
-		$('p').css("color", "red")
-	});
+    $('p').hover(function() {
+        $('p').css('font-size', '60px');
+    },
+    function(){
+    	$('p').css('font-size', '50px');
+    });
 });
