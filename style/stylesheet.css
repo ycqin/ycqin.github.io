@@ -42,3 +42,8 @@ h1 {
   /*display: inline-block;*/
 }
 
+#myCanvas {
+  position: absolute;
+  margin-top: -210px;
+}
+
