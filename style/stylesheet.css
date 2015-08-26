@@ -1,0 +1,44 @@
+body {
+  width: 800px;
+  height: 1000px;
+  margin: auto;
+  border: none;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+#abc {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 100px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  background-color: #66CCFF;
+  border:none;
+  border-radius: 180px;
+  font-size: 20px;
+  color: white;
+}
+
+#doms {
+  position: absolute;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 350px;
+  width: 280px;
+  height: 280px;
+  line-height: 280px;
+  /*padding: 135px 100px;*/
+  text-align: center;
+  background-color: #CC33FF;
+  border:none;
+  border-radius: 280px;
+  font-size: 20px;
+  color: white;
+  /*display: inline-block;*/
+}
+

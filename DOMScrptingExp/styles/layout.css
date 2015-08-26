@@ -1,0 +1,162 @@
+section, header, article, nav {
+	display: block;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: auto;
+	background-image: url(https://kayleighroselewis.files.wordpress.com/2011/10/glasvegas.jpg);
+	background-attachment: fixed;
+	background-position: bottom left;
+	background-repeat: repeat-y repeat-x;
+	width: 50em;
+}
+
+header {
+	width: 50em;
+	/*background: transparent;*/
+	/*background-image: url(http://thisisjester.com/wp-content/uploads/2012/01/Kes-the-Band2.jpg);*/
+	/*background-repeat: no-repeat;
+	background-position: top left;*/
+	/*border-width: .1em;*/
+	border-style: none;
+	border-bottom-width: 0;
+}
+
+
+#holder p {
+	position: absolute;
+	width: 6em;
+	/*bottom: -3em;*/
+	padding-left: 20px;
+	font-size: 90px;
+	font-family: Microsoft Yahei;
+	z-index: 2;
+}
+
+header img {
+	/*display: inline;*/
+	width: 50em;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	/*float: both;*/
+	/*z-index: -1;*/
+}
+
+header nav {
+	/*position: fixed;*/
+	/*background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9M4wtNW-xZrLP8_L-3q2yc3QWfFS-cWS6XKj-uEqA9P9wRRrIkg);*/
+	background-position: top left;
+	background-repeat: repeat-x;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 15%;
+}
+
+header nav ul {
+	width: 50em;
+	overflow: hidden;
+	/*border-left-width: .1em;*/
+	border-left-style: solid;
+}
+
+header nav li {
+	display: inline;
+}
+
+header nav li a {
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+
+article {
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 5em;
+	line-height: 1.80em;
+}
+
+article img {
+	border-width: .1em;
+	border-style: solid;
+	outline-width: .1em;
+	outline-style: solid;
+}
+
+article li img {
+	height: 100px;
+}
+
+
+#slideshow {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+#preview {
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+footer {
+	margin: auto;
+	text-align: center;
+}
+
+#imagegallery li {
+	display: inline;
+	height: 100px;
+	overflow: hidden;
+}
+
+td { 
+	padding: 1em 3em;
+}
+
+dl {
+	overflow: hidden;
+}
+
+dt {
+	float: left;
+}
+
+dd {
+	float: left;
+}
+
+
+dt {
+	margin-right: 1em;
+}
+
+dd {
+	margin-right: 3em;
+}
+
+label {
+	display: block;
+}
+
+fieldset {
+	border:none;
+}
