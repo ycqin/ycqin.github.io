@@ -9,7 +9,7 @@ h1 {
   margin-top: 60px;
 }
 
-#abc {
+#about {
   position: absolute;
   margin-left: 20px;
   margin-top: 100px;
@@ -45,5 +45,20 @@ h1 {
 #myCanvas {
   position: absolute;
   margin-top: -210px;
+}
+
+#back {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 400px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  background-color: #66CCFF;
+  border:none;
+  border-radius: 180px;
+  font-size: 20px;
+  color: white;
 }
 
